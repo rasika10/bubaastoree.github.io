@@ -893,7 +893,8 @@ services
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  position: relative;
+  width: 300px;
+
 }
 
 @media screen and (max-width: 920px) {
@@ -910,12 +911,12 @@ services
 
 
 .service-item img {
-  max-width: 150px;
-position: relative;
+  max-width: 140px;
+  position: relative;
   text-align: center;
   align-self: center;
   z-index: 2;
-  margin-left: 25%;
+  margin-left: 55px;
   margin-bottom: 15px;
   margin-top: 25px;
 }
@@ -926,7 +927,7 @@ position: relative;
   color: #1e1e1e;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
-  position: relative;
+
   z-index: 2;
 }
 

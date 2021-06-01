@@ -272,7 +272,7 @@
 				grid = !this.settings.autoWidth,
 				rtl = this.settings.rtl,
 				css = {
-					'width': 'auto',
+
 					'margin-left': rtl ? margin : '',
 					'margin-right': rtl ? '' : margin
 				};
