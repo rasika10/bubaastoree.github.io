@@ -252,15 +252,7 @@ function getScroll(element) {
   return element[upperSide];
 }
 
-/*
- * Sum or subtract the element scroll values (left and top) from a given rect object
- * @method
- * @memberof Popper.Utils
- * @param {Object} rect - Rect object you want to change
- * @param {HTMLElement} element - The element from the function reads the scroll values
- * @param {Boolean} subtract - set to true if you want to subtract the scroll values
- * @return {Object} rect - The modifier rect object
- */
+
 function includeScroll(rect, element) {
   var subtract = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
 
@@ -274,15 +266,6 @@ function includeScroll(rect, element) {
   return rect;
 }
 
-/*
- * Helper to detect borders of a given element
- * @method
- * @memberof Popper.Utils
- * @param {CSSStyleDeclaration} styles
- * Result of `getStyleComputedProperty` on the given element
- * @param {String} axis - `x` or `y`
- * @return {number} borders - The borders size of the given axis
- */
 
 function getBordersSize(styles, axis) {
   var sideA = axis === 'x' ? 'Left' : 'Top';
