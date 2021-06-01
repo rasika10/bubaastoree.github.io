@@ -1,36 +1,4 @@
-/*
 
-ART FACTORY
-
-https://templatemo.com/tm-537-art-factory
-
-*/
-
-/*
----------------------------------------------
-Table of contents
----------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. welcome
-06. features
-07. team
-08. pricing
-09. blog
-10. contact
-11. footer
-12. preloader
-
----------------------------------------------
-*/
-
-/*
----------------------------------------------
-font & reset css
----------------------------------------------
-*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 /*
 ---------------------------------------------
@@ -712,11 +680,7 @@ header
   }
 }
 
-/*
----------------------------------------------
-welcome
----------------------------------------------
-*/
+
 #welcome {
   overflow: hidden;
   position: relative;
